@@ -48,6 +48,7 @@ sudo systemctl status ufw
 
 cp /etc/X11/xinit/xinitrc /home/$username/.xinitrc
 chmod +x /home/$username/.xinitrc
+echo "i3" >> /home/$username/.xinitrc
 
 # setting up backgrounds
 cp -r ./wallpapers /home/$username/.config/
