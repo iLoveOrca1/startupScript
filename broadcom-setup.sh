@@ -22,5 +22,6 @@ modules=(
 for module in ${modules[@]};do
     sudo modprobe -r $module
 done
+
 sudo modprobe wl
 
