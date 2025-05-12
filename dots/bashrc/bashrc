@@ -1,0 +1,18 @@
+alias brset='brightnessctl set'
+alias atpup='sudo apt update && sudo apt upgrade'
+alias atpupd='sudo apt update'
+alias atpupg='sudo apt upgrade'
+alias aptin='sudo apt install'
+alias aptrm='sudo apt remove'
+alias aptsch='apt search' 
+
+alias lah='ls -lah --color=auto'
+alias ..='cd ..'
+alias .1='cd ..'
+alias .2='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+alias mkdir='mkdir -pv'
+
+alias cl='clear'
