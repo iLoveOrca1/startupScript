@@ -23,6 +23,7 @@ packages=(
     rofi
     pcmanfm
     vlc
+    fzf
     flameshot
     redshift
     firefox
