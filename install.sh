@@ -19,10 +19,10 @@ packages=(
     acpi
     i3
     lxrandr
-    suckless-tools
     rofi
     pcmanfm
     vlc
+    fish
     fzf
     flameshot
     redshift
@@ -36,6 +36,8 @@ packages=(
 for package in ${packages[@]};do
     sudo apt-get install ${package} -y
 done
+
+sudo chsh -s /usr/bin/fish $username
 
 sudo ufw status
 sudo ufw enable

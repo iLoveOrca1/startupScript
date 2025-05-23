@@ -50,6 +50,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec urxvtc
+bindsym $mod+x exec urxvtc
 
 # kill focused window
 bindsym $mod+Shift+c kill
