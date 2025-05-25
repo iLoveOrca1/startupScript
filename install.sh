@@ -38,7 +38,7 @@ for package in ${packages[@]};do
 done
 
 sudo chsh -s /usr/bin/fish $username
-sudo cp -f ./dots/fish/config.fish /etc/fish/config.fish
+sudo cp -f ./dots/fish/* /etc/fish/*
 
 sudo ufw status
 sudo ufw enable
