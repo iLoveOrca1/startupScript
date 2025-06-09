@@ -25,3 +25,4 @@ done
 
 sudo modprobe wl
 
+systemctl reboot
